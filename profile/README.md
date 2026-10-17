@@ -1,6 +1,6 @@
 # CodeRifts
 
-**Signed, offline-verifiable authorization for AI-agent contract changes.**
+**Signed, offline-verifiable authorization for API-contract changes. Only a granted change can proceed.**
 Without a valid receipt, the change does not cross the execution boundary.
 
 Most tools tell you what changed. CodeRifts tells you what may proceed — and proves it: every verdict is an Ed25519-signed receipt that anyone can verify offline, with an explicit statement of what the proof does and does not establish.
